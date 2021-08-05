@@ -9,7 +9,7 @@ from personal_information import password
 import pyautogui as p
 from selenium import webdriver
 import time
-driver = webdriver.Firefox(executable_path="/home/alberto/PycharmProjects/kinder/deco_scraping/geckodriver")
+driver = webdriver.Firefox(executable_path="/geckodriver")
 
 driver.get("https://tinder.com/app/recs")
 driver.maximize_window()
